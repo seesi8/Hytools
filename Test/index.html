@@ -1,0 +1,23 @@
+<html>
+    <head>
+    </head> 
+	<body>
+		<h1>Get a joke</h1>
+
+		<button id="joke-btn">Get Joke</button>
+		<div id="joke" class="card">Click the "get joke" button</div>
+
+		<!-- Ajax call -->
+		<script type="text/javascript" id="script3">
+		function ididit() {
+			$.ajax({
+			  type: "POST",
+			  url: "/app.py",
+			  data: { param: "thing"}
+			}).done(function( lol ) {
+			   // do something
+			});
+			}
+	</script>
+	</body>
+</html>

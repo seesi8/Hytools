@@ -1,5 +1,5 @@
 body {
-  background-image: url('/Images/Background.png')
+  background-image: url('../Images/Background.png')
 }
 Pt {
   font-size: 150px;
@@ -15,7 +15,7 @@ St{
   height: 520px;
   top: 0;
   left: 0;
-  background-image: url('/Images/sidepullout.png');
+  background-image: url('../Images/sidepullout.png');
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
